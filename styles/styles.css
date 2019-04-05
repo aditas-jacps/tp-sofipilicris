@@ -28,7 +28,6 @@ body{
 .header{
     display: block;
     margin: 30px auto;
-    overflow: hidden;
     text-align: center;
 }
 
@@ -42,35 +41,37 @@ body{
 }
 
 .menu-desktop{
-    display: flex;
-    flex-direction: row;
     width: 400px;
     margin: 20px auto;
     text-align: center;
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.menu-desktop li{
+    margin:0 auto;
 }
 
 .menu-desktop a{
     text-decoration: none;
     margin: 0 auto;
     color: #000;
-
 }
 
-/* .menu-desktop a:hover{
+.menu-desktop li a:hover{
     color: rgb(180, 75, 89);
-} */
+}
 
-a.platos{
+.platos{
     position: relative;
 }
 
 .options{
     display:none;
     position: absolute;
-    width: 90px;
     overflow: hidden;
-    top:20%;
-    left:0%;
     background-color: #fff;
 }
 
@@ -78,8 +79,8 @@ a.platos{
     margin:5px 0;
 }
 
-.menu-desktop a:hover .options {
-    display:block;
+.platos:hover .options {
+    display: block;
 }
 
 .menu-mobile{
@@ -156,6 +157,10 @@ a.platos{
     width: 100%;
     height: 100%;
     border-radius: 20px;
+}
+
+.img-recipe:hover {
+    
 }
 
 .list-image a{
