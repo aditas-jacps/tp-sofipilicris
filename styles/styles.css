@@ -58,6 +58,11 @@ body{
 
 .menu-desktop a:hover{
     color: rgb(180, 75, 89);
+
+}
+
+.menu-desktop li {
+    margin: 0 auto;
 }
 
 a.platos{
@@ -69,8 +74,7 @@ a.platos{
     position: absolute;
     width: 90px;
     overflow: hidden;
-    top:20%;
-    left:0%;
+    z-index: 2;
     background-color: #fff;
 }
 
@@ -79,16 +83,10 @@ a.platos{
 }
 
 .platos:hover .options{
-<<<<<<< HEAD
-<<<<<<< HEAD
-    display: none;
-=======
-    display:block;
->>>>>>> 35cf57fd368344e5312fda899968d742d67dd83c
-=======
-    display:block;
->>>>>>> d6f2cb19d73673a99ecc4f74ac5fe07b4cdd2f12
+display:block;
 }
+
+  
 
 .menu-mobile{
     display: none;
@@ -109,6 +107,7 @@ a.platos{
     justify-content: space-between;
     margin: 30px auto;
     padding: 20px 0;
+    z-index: 1;
 }
 
 .image-carousel{

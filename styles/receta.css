@@ -1,0 +1,144 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, section,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.header{
+    display: block;
+    margin: 30px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.title-header{
+    font-family: "Indie Flower", cursive;
+    font-size: 48px;
+    color: rgb(180, 75, 89);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu-desktop{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.menu-desktop a{
+    text-decoration: none;
+    margin: 0 auto;
+    color: #000;
+
+}
+
+.options{
+    display:none;
+}
+
+.menu-mobile{
+    display: none;
+/*  display:block;
+    width: 90%;
+    margin:10px auto;
+    height: 24px;
+    background-color: rgb(180, 75, 89);
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;*/
+}
+
+.banner{
+    width: 100%;
+}
+
+ul.under-banner{
+    display: flex;
+    list-style: none; 
+}
+
+.under-banner li a{
+    text-decoration: none;
+    color: #000;
+}
+
+i.fas{
+    color: #000;
+}
+
+div.logo{
+    float: left;
+    
+}
+
+ul.logo-media li img{
+    width: 40px;
+}
+
+.photo-recipe{
+    border-radius: 40px;
+    width: 620px;
+}
+
+
+
+.interaction-article{
+    height: 10px;
+    width: 400px;
+}
+.interaction-article p{
+    float:left;
+    font-size:10px;
+}
+
+.interaction-article > a{
+    float:right;
+    font-size:10px;
+    margin:0 10px;
+    text-decoration: none;
+}
+
+.footer{
+    width: 70%;
+    margin:50px auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.social-media{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 50px;
+}
+.social-media li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.fab, .far, .fas{
+    margin: 0 10px;
+}
