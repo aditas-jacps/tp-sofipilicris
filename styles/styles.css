@@ -73,6 +73,7 @@ body{
     position: absolute;
     overflow: hidden;
     background-color: #fff;
+    z-index:2;
 }
 
 .options li{
@@ -102,6 +103,7 @@ body{
     justify-content: space-between;
     margin: 30px auto;
     padding: 20px 0;
+    z-index: 1;
 }
 
 .image-carousel{
