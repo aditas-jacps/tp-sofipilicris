@@ -79,7 +79,11 @@ a.platos{
 }
 
 .platos:hover .options{
+<<<<<<< HEAD
     display: none;
+=======
+    display:block;
+>>>>>>> 35cf57fd368344e5312fda899968d742d67dd83c
 }
 
 .menu-mobile{
@@ -114,7 +118,11 @@ a.platos{
 }
 
 .hover{
+<<<<<<< HEAD
     display: none;
+=======
+    display:;
+>>>>>>> 35cf57fd368344e5312fda899968d742d67dd83c
     position: absolute;
     bottom:0%;
     left:0%;
