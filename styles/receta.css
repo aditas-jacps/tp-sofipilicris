@@ -51,7 +51,6 @@ body{
     text-decoration: none;
     margin: 0 auto;
     color: #000;
-
 }
 
 .options{
@@ -77,49 +76,104 @@ body{
 
 ul.under-banner{
     display: flex;
-    list-style: none; 
+    list-style: none;
+    width: 70%;
+    margin: 10px auto; 
 }
 
 .under-banner li a{
     text-decoration: none;
     color: #000;
+    font-size: 12px;
 }
 
 i.fas{
     color: #000;
 }
 
+.container{
+    margin: 50px auto 0 auto;
+    overflow: hidden;
+    width: 60%;
+    min-width: 450px;
+    max-width: 700px;
+    align-content: center;
+}
+
 div.logo{
     float: left;
-    
+    margin-top: 25px;
 }
 
 ul.logo-media li img{
     width: 40px;
+    margin: 5px 0;
+}
+
+.left-side{
+    width: calc(100% - 80px);
+    float: right;
 }
 
 .photo-recipe{
     border-radius: 40px;
-    width: 620px;
+    width: 520px;
 }
-
-
 
 .interaction-article{
     height: 10px;
-    width: 400px;
+    margin: 15px 0;
+    width: 530px;
 }
+
 .interaction-article p{
     float:left;
     font-size:10px;
 }
 
+.recipe-details p{
+    color: #999999;
+}
+
 .interaction-article > a{
-    float:right;
+    float: right;
     font-size:10px;
     margin:0 10px;
     text-decoration: none;
+    color: #999999;
 }
+
+div.in-recipe{
+    font-size: 12px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+div.quote{
+    padding-left: 15px;
+    border-left: solid 1px red;
+    margin-bottom: 25px;
+}
+
+p.quote-text{
+    color: #000;
+    margin: 25px 0 15px 0;
+}
+
+.ingredients{
+    font-size: 12px;
+    font-weight: bold;
+    color: #999999;
+    margin-left: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+
 
 .footer{
     width: 70%;
