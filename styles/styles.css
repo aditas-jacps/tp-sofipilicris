@@ -28,7 +28,6 @@ body{
 .header{
     display: block;
     margin: 30px auto;
-    overflow: hidden;
     text-align: center;
 }
 
@@ -42,51 +41,48 @@ body{
 }
 
 .menu-desktop{
-    display: flex;
-    flex-direction: row;
     width: 400px;
     margin: 20px auto;
     text-align: center;
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.menu-desktop li{
+    margin:0 auto;
 }
 
 .menu-desktop a{
     text-decoration: none;
     margin: 0 auto;
     color: #000;
-
 }
 
-.menu-desktop a:hover{
+.menu-desktop li a:hover{
     color: rgb(180, 75, 89);
-
 }
 
-.menu-desktop li {
-    margin: 0 auto;
-}
-
-a.platos{
+.platos{
     position: relative;
 }
 
 .options{
     display:none;
     position: absolute;
-    width: 90px;
     overflow: hidden;
-    z-index: 2;
     background-color: #fff;
+    z-index:2;
 }
 
 .options li{
     margin:5px 0;
 }
 
-.platos:hover .options{
-display:block;
+.platos:hover .options {
+    display: block;
 }
-
-  
 
 .menu-mobile{
     display: none;
@@ -114,6 +110,7 @@ display:block;
     margin: 0 5px;
     width: 25%;
     position: relative;
+    overflow: hidden;
 }
 
 .image-carousel img{
@@ -121,13 +118,11 @@ display:block;
 }
 
 .hover{
-
     display: none;
-position: absolute;
+    position: absolute;
     bottom:0%;
     left:0%;
     width: 100%;
-    height: 20%;
     background-color: rgba(180, 75, 89, 0.45);
     color: #000;
     padding: 10px 10px;
@@ -140,6 +135,10 @@ position: absolute;
 
 .text-hover{
     margin: 10px 10px;
+}
+
+.image-carousel:hover .hover{
+    display:block;
 }
 
 .recipes{
@@ -320,3 +319,43 @@ position: absolute;
 .fab, .far, .fas{
     margin: 0 10px;
 }
+
+
+@media (max-width: 600px){
+    
+    .header{
+        width:100%;
+    }
+    
+    .title-header{
+    margin: 10px auto;
+    }
+
+    .menu-desktop{
+        display:none;
+    }
+    
+    .menu-mobile{
+        display:block;
+        width: 50%;
+        margin:10px auto;
+        height: 2px;
+        background-color: rgb(180, 75, 89);
+        border-radius: 20px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px; 
+        height: 100vh;
+        display: block;
+        margin: 20 70px 10px 70px;
+        font-size: 16px;
+        height: calc(9vh - 15px)
+    }
+
+    .social-media li p{
+display: none
+    }
+
+    
+    
+    
