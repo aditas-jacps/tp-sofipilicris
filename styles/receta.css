@@ -164,16 +164,21 @@ p.quote-text{
     margin: 25px 0 15px 0;
 }
 
+i.fa-circle{
+    color: red;
+    font-size: 5px;
+    margin-right: 25px;
+    margin-left: 0;    
+}
+
 .ingredients{
     font-size: 12px;
     font-weight: bold;
     color: #999999;
-    margin-left: 18px;
     line-height: 25px;
     margin-bottom: 30px;
+    list-style: none;
 }
-
-
 
 .footer{
     width: 70%;
