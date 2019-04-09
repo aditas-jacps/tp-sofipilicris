@@ -49,7 +49,6 @@ body{
     flex-direction: row;
 }
 
-
 .menu-desktop li{
     margin:0 auto;
 }
@@ -77,7 +76,7 @@ body{
 }
 
 .options li{
-    margin:5px 0;
+    margin:10px 0;
 }
 
 .platos:hover .options {
@@ -118,14 +117,14 @@ body{
 }
 
 .hover{
-    display: none;
     position: absolute;
-    bottom:0%;
+    bottom:-100%;
     left:0%;
     width: 100%;
     background-color: rgba(180, 75, 89, 0.45);
     color: #000;
     padding: 10px 10px;
+    transition: bottom 0.3s ease-out;
 }
 
 .info-hover{
@@ -138,7 +137,10 @@ body{
 }
 
 .image-carousel:hover .hover{
-    display:block;
+    position: absolute;
+    bottom: 0%;
+    left:0%;
+    transition: bottom 0.3s ease-out;
 }
 
 .recipes{
@@ -175,6 +177,16 @@ body{
     height: 25px;
     line-height: 25px;
     color: #000;
+    transition: all 0.2s;
+}
+
+.list-image a:hover {
+    background-color: rgb(180, 75, 89);
+    color: #fff;
+}
+
+.list-image:hover .img-recipe{
+    opacity: 0.5;
 }
 
 .information{
@@ -187,14 +199,14 @@ body{
     overflow: hidden;
 }
 .video{
-    width: 60%;
-    margin: 25px 0;
+    width: calc(100% - 300px);
+    margin: 25px 0; 
 }
 .video p{
     font-size:10px;
 }
 .about-me{
-    width: 40%;
+    width: 300px;
 }
 .about-me img{
     display: block;
@@ -235,31 +247,30 @@ body{
 .div-article{
     display:flex;
     flex-direction: row;
-    overflow: hidden;
     border-top: 1px solid #ccc;
     padding: 20px 0;
+    width: calc(100% - 300px);
 }
 
 .image-article{
     float: left;
-    width: 40%;
-    height: 40%;
     margin-right: 30px;
     margin-top: 10px;
 }
 .image-article img{
     border-radius: 20px;
-    width: 100%;
-    height: 100%;
+    width: 250px;
+    height: 160px;
 }
 .info-article{
     float: left;
-    width:70%;
-    margin: 10px 30px;
+    width: calc(100% - 250px);
+    margin: 10px 0;
 }
 .interaction-article{
     height: 10px;
     width: 400px;
+    color: #999;
 }
 .interaction-article p{
     float:left;
@@ -271,6 +282,7 @@ body{
     font-size:10px;
     margin:0 10px;
     text-decoration: none;
+    color: #999;
 }
 .interaction-article .material-icons{
     font-size:10px;
@@ -280,11 +292,13 @@ body{
     float: left;
     width:400px;
     margin: 10px 0;
+    color: #999;
 }
 .text-article h2{
     font-weight: bold;
     font-size: 25px;
     margin: 15px 0;
+    color: #000;
 }
 .button-article{
     display:block;
@@ -297,6 +311,13 @@ body{
     line-height: 40px;
     text-decoration: none;
     margin-top: 25px;
+    transition: all 0.2s;
+}
+
+.button-article:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1.5px solid rgb(180, 75, 89);
 }
 
 .footer{
@@ -355,7 +376,3 @@ body{
     .social-media li p{
 display: none
     }
-
-    
-    
-    
