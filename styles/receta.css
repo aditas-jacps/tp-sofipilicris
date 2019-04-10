@@ -51,10 +51,6 @@ body{
     text-decoration: none;
     margin: 0 auto;
     color: #000;
-<<<<<<< HEAD
-
-=======
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 
 .options{
@@ -80,33 +76,21 @@ body{
 
 ul.under-banner{
     display: flex;
-<<<<<<< HEAD
-    list-style: none; 
-=======
     list-style: none;
     width: 70%;
     margin: 10px auto; 
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 
 .under-banner li a{
     text-decoration: none;
     color: #000;
-<<<<<<< HEAD
-=======
     font-size: 12px;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 
 i.fas{
     color: #000;
 }
 
-<<<<<<< HEAD
-div.logo{
-    float: left;
-    
-=======
 .container{
     margin: 50px auto 0 auto;
     overflow: hidden;
@@ -119,35 +103,13 @@ div.logo{
 div.logo{
     float: left;
     margin-top: 25px;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 
 ul.logo-media li img{
     width: 40px;
-<<<<<<< HEAD
-=======
-    margin: 5px 0;
-}
-
-.left-side{
     width: calc(100% - 80px);
     float: right;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-}
-
-.photo-recipe{
     border-radius: 40px;
-<<<<<<< HEAD
-    width: 620px;
-}
-
-
-
-.interaction-article{
-    height: 10px;
-    width: 400px;
-}
-=======
     width: 520px;
 }
 
@@ -157,19 +119,11 @@ ul.logo-media li img{
     width: 530px;
 }
 
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 .interaction-article p{
     float:left;
     font-size:10px;
 }
 
-<<<<<<< HEAD
-.interaction-article > a{
-    float:right;
-    font-size:10px;
-    margin:0 10px;
-    text-decoration: none;
-=======
 .recipe-details p{
     color: #999999;
 }
@@ -217,7 +171,6 @@ i.fa-circle{
     line-height: 25px;
     margin-bottom: 30px;
     list-style: none;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 
 .footer{
