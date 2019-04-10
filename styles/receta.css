@@ -102,15 +102,26 @@ i.fas{
 
 div.logo{
     float: left;
-    margin-top: 25px;
+    margin-top: 35px;
+
 }
 
 ul.logo-media li img{
-    width: 40px;
-    width: calc(100% - 80px);
+    width: 50px;
     float: right;
     border-radius: 40px;
-    width: 520px;
+    margin-bottom: 10px;
+}
+
+.photo-recipe{
+    border-radius: 20px;
+    width: 550px;
+}
+
+div.left-side{
+    width: calc(100% - 80px);
+    float: right;
+
 }
 
 .interaction-article{
@@ -131,13 +142,17 @@ ul.logo-media li img{
 .interaction-article > a{
     float: right;
     font-size:10px;
-    margin:0 10px;
+    margin:0 10px 10px 0;
     text-decoration: none;
     color: #999999;
 }
 
 div.in-recipe{
     font-size: 12px;
+}
+
+div.in-recipe p{
+    font-weight: bold;
 }
 
 h2{
@@ -155,6 +170,7 @@ div.quote{
 p.quote-text{
     color: #000;
     margin: 25px 0 15px 0;
+    font-weight: bold;
 }
 
 i.fa-circle{
@@ -193,4 +209,39 @@ i.fa-circle{
 }
 .fab, .far, .fas{
     margin: 0 10px;
+}
+
+@media (max-width: 600px){
+    
+    .header{
+        width:100%;
+    }
+    
+    .title-header{
+    margin: 10px auto;
+    }
+
+    .menu-desktop{
+        display:none;
+    }
+    
+    .menu-mobile{
+        display:block;
+        width: 50%;
+        margin:10px auto;
+        height: 2px;
+        background-color: rgb(180, 75, 89);
+        border-radius: 20px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px; 
+        height: 100vh;
+        display: block;
+        margin: 20 70px 10px 70px;
+        font-size: 16px;
+        height: calc(9vh - 15px)
+    }
+    .social-media li p{
+        display: none
+    }
 }
