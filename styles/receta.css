@@ -241,6 +241,60 @@ i.fa-circle{
         font-size: 16px;
         height: calc(9vh - 15px)
     }
+
+    .under-banner li{
+        font-size: 16px;
+    }
+
+    .container{
+        width: 300px;
+        margin: 0;
+    }
+
+    div.logo{
+        margin: 0 35px;
+        width: 360px;
+    }
+
+    div.logo li{
+        display: inline;
+    }
+
+    ul.logo-media{
+        justify-content: center   
+    }
+
+    ul.logo-media li img{
+        float: none;
+    }
+
+    div.left-side{
+        float: none;
+        width: 320px;
+        margin: 0 20px;
+    }
+
+    .photo-recipe{
+        width: 320px;
+    }
+
+    .interaction-article{
+        width: 320px;
+    }
+
+    h2{
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .in-recipe p{
+        font-size: 20px;
+    }
+
+    .ingredients{
+        font-size: 16px; 
+    }
+
     .social-media li p{
         display: none
     }
