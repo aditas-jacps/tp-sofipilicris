@@ -48,10 +48,6 @@ body{
     flex-direction: row;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 .menu-desktop li{
     margin:0 auto;
 }
@@ -79,11 +75,7 @@ body{
 }
 
 .options li{
-<<<<<<< HEAD
-    margin:5px 0;
-=======
     margin:10px 0;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 
 .platos:hover .options {
@@ -124,23 +116,14 @@ body{
 }
 
 .hover{
-<<<<<<< HEAD
-    display: none;
-    position: absolute;
-    bottom:0%;
-=======
     position: absolute;
     bottom:-100%;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
     left:0%;
     width: 100%;
     background-color: rgba(180, 75, 89, 0.45);
     color: #000;
     padding: 10px 10px;
-<<<<<<< HEAD
-=======
     transition: bottom 0.3s ease-out;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 
 .info-hover{
@@ -153,14 +136,10 @@ body{
 }
 
 .image-carousel:hover .hover{
-<<<<<<< HEAD
-    display:block;
-=======
     position: absolute;
     bottom: 0%;
     left:0%;
     transition: bottom 0.3s ease-out;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 
 .recipes{
@@ -183,10 +162,6 @@ body{
     border-radius: 20px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 .list-image a{
     display:block;
     margin:0 auto;
@@ -201,8 +176,6 @@ body{
     height: 25px;
     line-height: 25px;
     color: #000;
-<<<<<<< HEAD
-=======
     transition: all 0.2s;
 }
 
@@ -213,7 +186,6 @@ body{
 
 .list-image:hover .img-recipe{
     opacity: 0.5;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 
 .information{
@@ -226,23 +198,14 @@ body{
     overflow: hidden;
 }
 .video{
-<<<<<<< HEAD
-    width: 60%;
-    margin: 25px 0;
-=======
     width: calc(100% - 300px);
     margin: 25px 0; 
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 .video p{
     font-size:10px;
 }
 .about-me{
-<<<<<<< HEAD
-    width: 40%;
-=======
     width: 300px;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 .about-me img{
     display: block;
@@ -283,38 +246,18 @@ body{
 .div-article{
     display:flex;
     flex-direction: row;
-<<<<<<< HEAD
-    overflow: hidden;
-    border-top: 1px solid #ccc;
-    padding: 20px 0;
-=======
     border-top: 1px solid #ccc;
     padding: 20px 0;
     width: calc(100% - 300px);
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 
 .image-article{
     float: left;
-<<<<<<< HEAD
-    width: 40%;
-    height: 40%;
-=======
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
     margin-right: 30px;
     margin-top: 10px;
 }
 .image-article img{
     border-radius: 20px;
-<<<<<<< HEAD
-    width: 100%;
-    height: 100%;
-}
-.info-article{
-    float: left;
-    width:70%;
-    margin: 10px 30px;
-=======
     width: 250px;
     height: 160px;
 }
@@ -322,15 +265,11 @@ body{
     float: left;
     width: calc(100% - 250px);
     margin: 10px 0;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 .interaction-article{
     height: 10px;
     width: 400px;
-<<<<<<< HEAD
-=======
     color: #999;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 .interaction-article p{
     float:left;
@@ -342,10 +281,7 @@ body{
     font-size:10px;
     margin:0 10px;
     text-decoration: none;
-<<<<<<< HEAD
-=======
     color: #999;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 .interaction-article .material-icons{
     font-size:10px;
@@ -355,19 +291,13 @@ body{
     float: left;
     width:400px;
     margin: 10px 0;
-<<<<<<< HEAD
-=======
     color: #999;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 .text-article h2{
     font-weight: bold;
     font-size: 25px;
     margin: 15px 0;
-<<<<<<< HEAD
-=======
     color: #000;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 .button-article{
     display:block;
@@ -380,8 +310,6 @@ body{
     line-height: 40px;
     text-decoration: none;
     margin-top: 25px;
-<<<<<<< HEAD
-=======
     transition: all 0.2s;
 }
 
@@ -389,7 +317,6 @@ body{
     background-color: #fff;
     color: #000;
     border: 1.5px solid rgb(180, 75, 89);
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 }
 
 .footer{
@@ -404,18 +331,21 @@ body{
     list-style: none;
     margin-bottom: 50px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
 .social-media li a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
 }
-<<<<<<< HEAD
 .fab, .far, .fas{
     margin: 0 10px;
+}
+
+.social-media li a:hover{
+    color: rgb(180, 75, 89);
+}
+
+.social-media li p{
+    display: inline;
 }
 
 
@@ -449,20 +379,8 @@ body{
         font-size: 16px;
         height: calc(9vh - 15px)
     }
-
     .social-media li p{
-display: none
+        display: none
     }
-
-    
-    
-    
-=======
-
-.social-media li a:hover{
-    color: rgb(180, 75, 89);
 }
-.fab, .far, .fas{
-    margin: 0 10px;
-}
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+
