@@ -102,22 +102,43 @@ i.fas{
 
 div.logo{
     float: left;
+<<<<<<< HEAD
     margin-top: 25px;
 }
 
 ul.logo-media li img{
     width: 40px;
     margin: 5px 0;
+=======
+    margin-top: 35px;
+
 }
 
-.left-side{
+ul.logo-media li img{
+    width: 50px;
+    float: right;
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+
+.photo-recipe{
+    border-radius: 20px;
+    width: 550px;
+>>>>>>> a0e470162d9c11b0c3243c9f9af9c7e610ccd427
+}
+
+div.left-side{
     width: calc(100% - 80px);
     float: right;
+<<<<<<< HEAD
 }
 
 .photo-recipe{
     border-radius: 40px;
     width: 520px;
+=======
+
+>>>>>>> a0e470162d9c11b0c3243c9f9af9c7e610ccd427
 }
 
 .interaction-article{
@@ -138,13 +159,17 @@ ul.logo-media li img{
 .interaction-article > a{
     float: right;
     font-size:10px;
-    margin:0 10px;
+    margin:0 10px 10px 0;
     text-decoration: none;
     color: #999999;
 }
 
 div.in-recipe{
     font-size: 12px;
+}
+
+div.in-recipe p{
+    font-weight: bold;
 }
 
 h2{
@@ -162,6 +187,7 @@ div.quote{
 p.quote-text{
     color: #000;
     margin: 25px 0 15px 0;
+    font-weight: bold;
 }
 
 i.fa-circle{
@@ -200,4 +226,93 @@ i.fa-circle{
 }
 .fab, .far, .fas{
     margin: 0 10px;
+}
+
+@media (max-width: 600px){
+    
+    .header{
+        width:100%;
+    }
+    
+    .title-header{
+    margin: 10px auto;
+    }
+
+    .menu-desktop{
+        display:none;
+    }
+    
+    .menu-mobile{
+        display:block;
+        width: 50%;
+        margin:10px auto;
+        height: 2px;
+        background-color: rgb(180, 75, 89);
+        border-radius: 20px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px; 
+        height: 100vh;
+        display: block;
+        margin: 20 70px 10px 70px;
+        font-size: 16px;
+        height: calc(9vh - 15px)
+    }
+
+    .under-banner li{
+        font-size: 16px;
+    }
+
+    .container{
+        width: 300px;
+        margin: 0;
+    }
+
+    div.logo{
+        margin: 0 35px;
+        width: 360px;
+    }
+
+    div.logo li{
+        display: inline;
+    }
+
+    ul.logo-media{
+        justify-content: center   
+    }
+
+    ul.logo-media li img{
+        float: none;
+    }
+
+    div.left-side{
+        float: none;
+        width: 320px;
+        margin: 0 20px;
+    }
+
+    .photo-recipe{
+        width: 320px;
+    }
+
+    .interaction-article{
+        width: 320px;
+    }
+
+    h2{
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .in-recipe p{
+        font-size: 20px;
+    }
+
+    .ingredients{
+        font-size: 16px; 
+    }
+
+    .social-media li p{
+        display: none
+    }
 }
