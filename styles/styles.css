@@ -16,7 +16,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    
 }
 
 /*hago version desktop como base*/ 
@@ -29,6 +30,7 @@ body{
     display: block;
     margin: 30px auto;
     text-align: center;
+    width: 70%;
 }
 
 .title-header{
@@ -50,9 +52,12 @@ body{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 .menu-desktop li{
     margin:0 auto;
 }
@@ -81,10 +86,14 @@ body{
 
 .options li{
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin:5px 0;
 =======
     margin:10px 0;
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+    margin:10px 0;
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
 
 .platos:hover .options {
@@ -126,6 +135,7 @@ body{
 
 .hover{
 <<<<<<< HEAD
+<<<<<<< HEAD
     display: none;
     position: absolute;
     bottom:0%;
@@ -133,15 +143,23 @@ body{
     position: absolute;
     bottom:-100%;
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+    position: absolute;
+    bottom:-100%;
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
     left:0%;
     width: 100%;
     background-color: rgba(180, 75, 89, 0.45);
     color: #000;
     padding: 10px 10px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     transition: bottom 0.3s ease-out;
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+    transition: bottom 0.3s ease-out;
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
 
 .info-hover{
@@ -155,13 +173,19 @@ body{
 
 .image-carousel:hover .hover{
 <<<<<<< HEAD
+<<<<<<< HEAD
     display:block;
 =======
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
     position: absolute;
     bottom: 0%;
     left:0%;
     transition: bottom 0.3s ease-out;
+<<<<<<< HEAD
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
 
 .recipes{
@@ -185,9 +209,12 @@ body{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 .list-image a{
     display:block;
     margin:0 auto;
@@ -203,7 +230,10 @@ body{
     line-height: 25px;
     color: #000;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
     transition: all 0.2s;
 }
 
@@ -214,7 +244,10 @@ body{
 
 .list-image:hover .img-recipe{
     opacity: 0.5;
+<<<<<<< HEAD
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
 
 .information{
@@ -228,22 +261,31 @@ body{
 }
 .video{
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 60%;
     margin: 25px 0;
 =======
     width: calc(100% - 300px);
     margin: 25px 0; 
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+    width: calc(100% - 300px);
+    margin: 25px 0; 
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
 .video p{
     font-size:10px;
 }
 .about-me{
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 40%;
 =======
     width: 300px;
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+    width: 300px;
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
 .about-me img{
     display: block;
@@ -285,6 +327,7 @@ body{
     display:flex;
     flex-direction: row;
 <<<<<<< HEAD
+<<<<<<< HEAD
     overflow: hidden;
     border-top: 1px solid #ccc;
     padding: 20px 0;
@@ -293,20 +336,29 @@ body{
     padding: 20px 0;
     width: calc(100% - 300px);
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+    border-top: 1px solid #ccc;
+    padding: 20px 0;
+    width: calc(100% - 300px);
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
 
 .image-article{
     float: left;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 40%;
     height: 40%;
 =======
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
     margin-right: 30px;
     margin-top: 10px;
 }
 .image-article img{
     border-radius: 20px;
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 100%;
     height: 100%;
@@ -316,6 +368,8 @@ body{
     width:70%;
     margin: 10px 30px;
 =======
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
     width: 250px;
     height: 160px;
 }
@@ -323,15 +377,22 @@ body{
     float: left;
     width: calc(100% - 250px);
     margin: 10px 0;
+<<<<<<< HEAD
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
 .interaction-article{
     height: 10px;
     width: 400px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     color: #999;
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+    color: #999;
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
 .interaction-article p{
     float:left;
@@ -344,9 +405,13 @@ body{
     margin:0 10px;
     text-decoration: none;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     color: #999;
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+    color: #999;
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
 .interaction-article .material-icons{
     font-size:10px;
@@ -357,18 +422,26 @@ body{
     width:400px;
     margin: 10px 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     color: #999;
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+    color: #999;
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
 .text-article h2{
     font-weight: bold;
     font-size: 25px;
     margin: 15px 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     color: #000;
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+    color: #000;
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
 .button-article{
     display:block;
@@ -382,7 +455,10 @@ body{
     text-decoration: none;
     margin-top: 25px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
     transition: all 0.2s;
 }
 
@@ -390,7 +466,10 @@ body{
     background-color: #fff;
     color: #000;
     border: 1.5px solid rgb(180, 75, 89);
+<<<<<<< HEAD
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
 
 .footer{
@@ -406,18 +485,31 @@ body{
     margin-bottom: 50px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 .social-media li a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+.fab, .far, .fas{
+    margin: 0 10px;
+=======
 .fab, .far, .fas{
     margin: 0 10px;
 }
+
+.line{
+    display: none;
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+}
+
 
 
 @media (max-width: 600px){
@@ -428,6 +520,7 @@ body{
     
     .title-header{
     margin: 10px auto;
+    width: 100%;
     }
 
     .menu-desktop{
@@ -436,28 +529,77 @@ body{
     
     .menu-mobile{
         display:block;
-        width: 50%;
+        width: 100%;
         margin:10px auto;
         height: 2px;
         background-color: rgb(180, 75, 89);
-        border-radius: 20px;
+        border-radius: 10px;
         text-decoration: none;
         color: #fff;
         font-size: 16px; 
-        height: 100vh;
+        height: 5vh;
         display: block;
         margin: 20 70px 10px 70px;
         font-size: 16px;
-        height: calc(9vh - 15px)
-    }
+        height: calc(9vh - 15px);
+        top: 0;
+        
+        }
+        
+
+
+
+.image-carousel .hover{
+    display: none
+}
 
     .social-media li p{
 display: none
     }
 
+    .footer{
+    width: 100%;
+    margin: 0;
+    display: inline-block
+    }
+
+    .list-image a{
+    width: 60%;
+    margin: 0;
+    display: inline-block
     
+    }
+
+    .div-article{
+        display: none
+    }
+
+    .hr{
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        width: 100px;
+        height: 1px;
+        
+        
     
+    }
     
+    h1::after,h1::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: grey;
+    top: 1;
+    margin: 70px;
+    }
+    
+    h1::before{
+    left: 480px;
+    }
+    
+<<<<<<< HEAD
 =======
 
 .social-media li a:hover{
@@ -467,3 +609,8 @@ display: none
     margin: 0 10px;
 }
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+    h1::after{
+    right: 480px;
+    }
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
