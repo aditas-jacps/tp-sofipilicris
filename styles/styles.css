@@ -20,6 +20,7 @@ time, mark, audio, video {
     
 }
 
+/*hago version desktop como base*/ 
 
 body{
     font-family: "IBM Plex Mono", monospace;
@@ -50,6 +51,7 @@ body{
     flex-direction: row;
 }
 
+
 .menu-desktop li{
     margin:0 auto;
 }
@@ -77,7 +79,10 @@ body{
 }
 
 .options li{
+
     margin:10px 0;
+
+
 }
 
 .platos:hover .options {
@@ -86,15 +91,6 @@ body{
 
 .menu-mobile{
     display: none;
-/*  display:block;
-    width: 90%;
-    margin:10px auto;
-    height: 24px;
-    background-color: rgb(180, 75, 89);
-    border-radius: 20px;
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;*/
 }
 
 .carousel{
@@ -118,16 +114,20 @@ body{
 }
 
 .hover{
+
+    display: none;
+ 
     position: absolute;
     bottom:-100%;
+
     left:0%;
     width: 100%;
     background-color: rgba(180, 75, 89, 0.45);
     color: #000;
     padding: 10px 10px;
+
     transition: bottom 0.3s ease-out;
 }
-
 .info-hover{
     font-size: 10px;
     margin: 10px 10px;
@@ -138,6 +138,9 @@ body{
 }
 
 .image-carousel:hover .hover{
+
+    display:block;
+
     position: absolute;
     bottom: 0%;
     left:0%;
@@ -164,6 +167,7 @@ body{
     border-radius: 20px;
 }
 
+
 .list-image a{
     display:block;
     margin:0 auto;
@@ -178,6 +182,7 @@ body{
     height: 25px;
     line-height: 25px;
     color: #000;
+
     transition: all 0.2s;
 }
 
@@ -188,6 +193,7 @@ body{
 
 .list-image:hover .img-recipe{
     opacity: 0.5;
+
 }
 
 .information{
@@ -200,13 +206,16 @@ body{
     overflow: hidden;
 }
 .video{
+    width: 60%;
+    margin: 25px 0;
     width: calc(100% - 300px);
-    margin: 25px 0; 
 }
+  
 .video p{
     font-size:10px;
 }
 .about-me{
+    width: 40%;
     width: 300px;
 }
 .about-me img{
@@ -248,6 +257,7 @@ body{
 .div-article{
     display:flex;
     flex-direction: row;
+    overflow: hidden;
     border-top: 1px solid #ccc;
     padding: 20px 0;
     width: calc(100% - 300px);
@@ -255,11 +265,20 @@ body{
 
 .image-article{
     float: left;
+    width: 40%;
+    height: 40%;
     margin-right: 30px;
     margin-top: 10px;
 }
 .image-article img{
     border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.info-article{
+    float: left;
+    width:70%;
+    margin: 10px 30px;
     width: 250px;
     height: 160px;
 }
@@ -333,6 +352,7 @@ body{
     list-style: none;
     margin-bottom: 50px;
 }
+
 .social-media li a{
     text-decoration: none;
     color: #000;
@@ -342,20 +362,24 @@ body{
     margin: 0 10px;
 }
 
+.line{
+    display: none;
+}
+
 .social-media li a:hover{
     color: rgb(180, 75, 89);
 }
 
-.social-media li p{
-    display: inline;
-}
-
-
-
 @media (max-width: 600px){
-    
     .header{
         width:100%;
+    }
+
+    .video{
+        display: none
+    }
+    .recipes{
+        flex-direction: column;
     }
     
     .title-header{
@@ -381,24 +405,35 @@ body{
         display: block;
         margin: 20 70px 10px 70px;
         font-size: 16px;
-        height: calc(9vh - 15px)
+        height: calc(9vh - 15px);
+        top: 0;
     }
+        
+    .image-carousel .hover{
+        display: none
+    }
+
     .social-media li p{
         display: none
     }
-}
 
     .footer{
-    width: 100%;
-    margin: 0;
-    display: inline-block
+        width: 70%;
+        margin: 0 auto;
     }
 
     .list-image a{
-    width: 60%;
-    margin: 0;
-    display: inline-block
-    
+        width: 60%;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .hr{
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        width: 100px;
+        height: 1px;
     }
 
     .div-article{
@@ -411,25 +446,25 @@ body{
         text-align: center;
         width: 100px;
         height: 1px;
-        
-        
-    
     }
     
     h1::after,h1::before{
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 1px;
-    background-color: grey;
-    top: 1;
-    margin: 70px;
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 1px;
+        background-color: grey;
+        top: 1;
+        margin: 70px;
     }
-    
+
     h1::before{
     left: 480px;
     }
-    
+
     h1::after{
     right: 480px;
     }
+}
+
+    
