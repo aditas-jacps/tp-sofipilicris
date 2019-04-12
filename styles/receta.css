@@ -257,6 +257,10 @@ i.fa-circle{
     margin: 0 10px;
 }
 
+.footer-up{
+    display:none;
+}
+
 @media (max-width: 600px){
     
     .header{
