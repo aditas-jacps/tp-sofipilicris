@@ -52,9 +52,21 @@ body{
     margin: 0 auto;
     color: #000;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> ccac0aa3872059c1c61903eee91bb018f01c952a
 }
 
 .options{
@@ -81,21 +93,61 @@ body{
 ul.under-banner{
     display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     list-style: none; 
 =======
     list-style: none;
     width: 70%;
     margin: 10px auto; 
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+    list-style: none;
+    width: 70%;
+    margin: 10px auto; 
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+    list-style: none;
+    width: 70%;
+    margin: 10px auto; 
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+    list-style: none;
+    width: 70%;
+    margin: 10px auto; 
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+    list-style: none;
+    width: 70%;
+    margin: 10px auto; 
+>>>>>>> ccac0aa3872059c1c61903eee91bb018f01c952a
 }
 
 .under-banner li a{
     text-decoration: none;
     color: #000;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
     font-size: 12px;
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+    font-size: 12px;
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+    font-size: 12px;
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+    font-size: 12px;
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+    font-size: 12px;
+>>>>>>> ccac0aa3872059c1c61903eee91bb018f01c952a
 }
 
 i.fas{
@@ -103,10 +155,22 @@ i.fas{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 div.logo{
     float: left;
     
 =======
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> ccac0aa3872059c1c61903eee91bb018f01c952a
 .container{
     margin: 50px auto 0 auto;
     overflow: hidden;
@@ -118,37 +182,106 @@ div.logo{
 
 div.logo{
     float: left;
+<<<<<<< HEAD
     margin-top: 25px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> ccac0aa3872059c1c61903eee91bb018f01c952a
 }
 
 ul.logo-media li img{
     width: 40px;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> ccac0aa3872059c1c61903eee91bb018f01c952a
     margin: 5px 0;
+=======
+    margin-top: 35px;
+
 }
 
-.left-side{
-    width: calc(100% - 80px);
+ul.logo-media li img{
+    width: 50px;
     float: right;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
 
 .photo-recipe{
     border-radius: 40px;
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     width: 620px;
-}
-
-
-
-.interaction-article{
-    height: 10px;
-    width: 400px;
-}
 =======
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
     width: 520px;
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+    border-radius: 40px;
+    margin-bottom: 10px;
+}
+
+.photo-recipe{
+    border-radius: 20px;
+    width: 550px;
+>>>>>>> a0e470162d9c11b0c3243c9f9af9c7e610ccd427
+>>>>>>> ccac0aa3872059c1c61903eee91bb018f01c952a
+}
+
+div.left-side{
+    width: calc(100% - 80px);
+    float: right;
+<<<<<<< HEAD
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+
+.photo-recipe{
+    border-radius: 40px;
+>>>>>>> ccac0aa3872059c1c61903eee91bb018f01c952a
+    width: 520px;
+=======
+
+>>>>>>> a0e470162d9c11b0c3243c9f9af9c7e610ccd427
 }
 
 .interaction-article{
@@ -157,12 +290,28 @@ ul.logo-media li img{
     width: 530px;
 }
 
+<<<<<<< HEAD
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> ccac0aa3872059c1c61903eee91bb018f01c952a
 .interaction-article p{
     float:left;
     font-size:10px;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 .interaction-article > a{
     float:right;
@@ -170,6 +319,14 @@ ul.logo-media li img{
     margin:0 10px;
     text-decoration: none;
 =======
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> ccac0aa3872059c1c61903eee91bb018f01c952a
 .recipe-details p{
     color: #999999;
 }
@@ -177,13 +334,17 @@ ul.logo-media li img{
 .interaction-article > a{
     float: right;
     font-size:10px;
-    margin:0 10px;
+    margin:0 10px 10px 0;
     text-decoration: none;
     color: #999999;
 }
 
 div.in-recipe{
     font-size: 12px;
+}
+
+div.in-recipe p{
+    font-weight: bold;
 }
 
 h2{
@@ -201,6 +362,7 @@ div.quote{
 p.quote-text{
     color: #000;
     margin: 25px 0 15px 0;
+    font-weight: bold;
 }
 
 i.fa-circle{
@@ -217,7 +379,19 @@ i.fa-circle{
     line-height: 25px;
     margin-bottom: 30px;
     list-style: none;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+=======
+>>>>>>> ccac0aa3872059c1c61903eee91bb018f01c952a
 }
 
 .footer{
@@ -240,4 +414,93 @@ i.fa-circle{
 }
 .fab, .far, .fas{
     margin: 0 10px;
+}
+
+@media (max-width: 600px){
+    
+    .header{
+        width:100%;
+    }
+    
+    .title-header{
+    margin: 10px auto;
+    }
+
+    .menu-desktop{
+        display:none;
+    }
+    
+    .menu-mobile{
+        display:block;
+        width: 50%;
+        margin:10px auto;
+        height: 2px;
+        background-color: rgb(180, 75, 89);
+        border-radius: 20px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px; 
+        height: 100vh;
+        display: block;
+        margin: 20 70px 10px 70px;
+        font-size: 16px;
+        height: calc(9vh - 15px)
+    }
+
+    .under-banner li{
+        font-size: 16px;
+    }
+
+    .container{
+        width: 300px;
+        margin: 0;
+    }
+
+    div.logo{
+        margin: 0 35px;
+        width: 360px;
+    }
+
+    div.logo li{
+        display: inline;
+    }
+
+    ul.logo-media{
+        justify-content: center   
+    }
+
+    ul.logo-media li img{
+        float: none;
+    }
+
+    div.left-side{
+        float: none;
+        width: 320px;
+        margin: 0 20px;
+    }
+
+    .photo-recipe{
+        width: 320px;
+    }
+
+    .interaction-article{
+        width: 320px;
+    }
+
+    h2{
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .in-recipe p{
+        font-size: 20px;
+    }
+
+    .ingredients{
+        font-size: 16px; 
+    }
+
+    .social-media li p{
+        display: none
+    }
 }
