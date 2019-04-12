@@ -203,6 +203,10 @@ body{
     width: calc(100% - 300px);
 }
 
+.video p{
+    font-size:10px;
+}
+
 .about-me{
     width: 300px;
 }
