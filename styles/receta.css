@@ -221,6 +221,10 @@ i.fa-circle{
     margin: 10px auto;
     }
 
+    .banner{
+        width: 360px;
+    }
+
     .menu-desktop{
         display:none;
     }
@@ -242,8 +246,15 @@ i.fa-circle{
         height: calc(9vh - 15px)
     }
 
-    .under-banner li{
-        font-size: 16px;
+    ul.under-banner{
+        display: flex;
+        list-style: none;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .under-banner li a{
+        font-size: 12px;
     }
 
     .container{
