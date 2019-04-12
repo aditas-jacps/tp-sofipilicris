@@ -250,9 +250,9 @@ body{
 .div-article{
     display:flex;
     flex-direction: row;
-    overflow: hidden;
     border-top: 1px solid #ccc;
     padding: 20px 0;
+    margin:10px 0;
     width: calc(100% - 300px);
 }
 
@@ -359,157 +359,113 @@ body{
     font-weight: bold;
 }
 
-.fab, .far, .fas{
-    margin: 0 10px;
-}
-
-.line{
-    display: none;
-}
-
 .social-media li a:hover{
     color: rgb(180, 75, 89);
 }
 
-@media (max-width: 600px){
-    .header{
-        width:100%;
-    }
+.fab, .far, .fas{
+    margin: 0 10px;
+}
 
-    .video{
-        display: none
-    }
-    .recipes{
-        flex-direction: column;
-    }
-    
-    .title-header{
-    margin: 10px auto;
-    width: 100%;
-    }
+.footer-up{
+    display:none;
+}
 
+@media only screen and (max-width: 600px){
     .menu-desktop{
         display:none;
     }
     
     .menu-mobile{
         display:block;
-        width: 100%;
+        width: 50%;
         margin:10px auto;
-        height: 2px;
+        height: 20px;
+        line-height: 16px;
         background-color: rgb(180, 75, 89);
         border-radius: 10px;
         text-decoration: none;
         color: #fff;
         font-size: 16px; 
-        height: 5vh;
-        display: block;
-        margin: 20 70px 10px 70px;
-        font-size: 16px;
-        height: calc(9vh - 15px);
-        top: 0;
     }
-        
-    .image-carousel .hover{
+
+    .fa-align-justify{
+        margin-top:2px;
+    }
+
+    .carousel-responsive-1{
+        width:100%;
+        margin: 0 auto;
+    }
+
+    .carousel-responsive{
+        display:none;
+    }
+
+    .recipes{
+        flex-direction: column;
+    }
+
+    .list-image{
+        width:100%;
+        margin: 10px auto;
+    }
+
+    .video{
         display: none
+    }
+
+    .about-me{
+        margin: 0 auto;
+        min-width:300px;
+    }
+
+    .div-article{
+        width: 100%;
+        min-width:320px;
+    }
+
+    .image-article{
+        display:none;
+    }
+
+    .info-article{
+        width: 100%;
+    }
+
+    .text-article{
+        width: 100%;
+    }
+
+    .interaction-article{
+        width: 100%;   
+    }
+
+    .footer{
+    width: 70%;
+    margin: 0 auto;
     }
 
     .social-media li p{
         display: none
     }
 
-    .footer{
-
-    width: 100%;
-    margin: 0;
-    display: inline-block
+    .footer-up{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin:10px auto;
+        width: 100%;
     }
 
-    .list-image a{
-    width: 60%;
-    margin: 0;
-    display: inline-block
+    .footer-up a{
+        color: rgb(180, 75, 89);
+        font-size: 30px;
     }
+}
 
+@media only screen and (max-width: 1000px){
     .div-article{
-        display: none
-    }
-
-    .hr{
-        display: inline-block;
-        position: relative;
-        text-align: center;
-        width: 100px;
-        height: 1px;
-        }
-
-    .div-article{
-        display: none
-    }
-
-    .hr{
-        display: inline-block;
-        position: relative;
-        text-align: center;
-        width: 100px;
-        height: 1px;
-    }
-    
-    h1::after,h1::before{
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 1px;
-    background-color: grey;
-    top: 1;
-    margin: 70px;
-    }
-
-    h1::before{
-    left: 480px;
-    }
-    
-    .list-image a{
-        width: 60%;
-        margin: 0;
-        display: inline-block;
-    }
-
-    .hr{
-        display: inline-block;
-        position: relative;
-        text-align: center;
-        width: 100px;
-        height: 1px;
-    }
-
-    .div-article{
-        display: none
-    }
-
-    .hr{
-        display: inline-block;
-        position: relative;
-        text-align: center;
-        width: 100px;
-        height: 1px;
-    }
-    
-    h1::after,h1::before{
-        content: "";
-        position: absolute;
-        width: 100px;
-        height: 1px;
-        background-color: grey;
-        top: 1;
-        margin: 70px;
-    }
-
-    h1::before{
-    left: 480px;
-    }
-
-    h1::after{
-    right: 480px;
+        width:100%;
     }
 }
