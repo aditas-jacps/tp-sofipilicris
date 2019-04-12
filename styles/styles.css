@@ -367,20 +367,17 @@ body{
         display:block;
         width: 50%;
         margin:10px auto;
-        height: 2px;
+        height: 20px;
+        line-height: 16px;
         background-color: rgb(180, 75, 89);
-        border-radius: 20px;
+        border-radius: 10px;
         text-decoration: none;
         color: #fff;
         font-size: 16px; 
-        height: 100vh;
-        display: block;
-        margin: 20 70px 10px 70px;
-        font-size: 16px;
-        height: calc(9vh - 15px)
     }
-    .social-media li p{
-        display: none
+    
+    .social-media li a p{
+        display: none;
     }
 }
 

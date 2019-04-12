@@ -207,49 +207,53 @@ i.fa-circle{
     color: #000;
     font-weight: bold;
 }
+
+.social-media li a:hover{
+    color: rgb(180, 75, 89);
+}
+
 .fab, .far, .fas{
     margin: 0 10px;
 }
 
-@media (max-width: 600px){
-    
+@media screen and (max-width: 600px){
     .header{
         width:100%;
     }
     
     .title-header{
-    margin: 10px auto;
+        margin: 10px auto;
     }
 
     .banner{
-        width: 360px;
+        width: 100%;
     }
 
     .menu-desktop{
         display:none;
     }
     
+    i.fa-align-justify{
+        color: #fff;
+    }
+
     .menu-mobile{
         display:block;
         width: 50%;
         margin:10px auto;
-        height: 2px;
+        height: 20px;
+        line-height: 16px;
         background-color: rgb(180, 75, 89);
-        border-radius: 20px;
+        border-radius: 10px;
         text-decoration: none;
         color: #fff;
         font-size: 16px; 
-        height: 100vh;
-        display: block;
-        margin: 20 70px 10px 70px;
-        font-size: 16px;
-        height: calc(9vh - 15px)
     }
 
     ul.under-banner{
         display: flex;
         list-style: none;
-        width: 90%;
+        width: 100%;
         margin: 20px auto;
     }
 
@@ -289,10 +293,6 @@ i.fa-circle{
         width: 320px;
     }
 
-    .interaction-article{
-        width: 320px;
-    }
-
     h2{
         font-size: 27px;
         text-align: center;
@@ -306,7 +306,8 @@ i.fa-circle{
         font-size: 16px; 
     }
 
-    .social-media li p{
-        display: none
+    .social-media li a p{
+        display: none;
     }
+
 }
