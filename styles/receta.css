@@ -26,7 +26,7 @@ body{
 .header{
     display: block;
     margin: 30px auto;
-    overflow: hidden;
+    width: 70%;
     text-align: center;
 }
 
@@ -40,11 +40,16 @@ body{
 }
 
 .menu-desktop{
-    display: flex;
-    flex-direction: row;
     width: 400px;
     margin: 20px auto;
     text-align: center;
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-desktop li{
+    margin:0 auto;
 }
 
 .menu-desktop a{
@@ -53,29 +58,41 @@ body{
     color: #000;
 }
 
+.menu-desktop li a:hover{
+    color: rgb(180, 75, 89);
+}
+
+.platos{
+    position: relative;
+}
+
 .options{
     display:none;
+    position: absolute;
+    overflow: hidden;
+    background-color: #fff;
+    z-index:2;
+}
+
+.options li{
+    margin:10px 0;
+}
+
+.platos:hover .options {
+    display: block;
 }
 
 .menu-mobile{
     display: none;
-/*  display:block;
-    width: 90%;
-    margin:10px auto;
-    height: 24px;
-    background-color: rgb(180, 75, 89);
-    border-radius: 20px;
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;*/
 }
 
 .banner{
     width: 100%;
+    z-index:1;
 }
 
 ul.under-banner{
-    display: flex;
+    display: flex; 
     list-style: none;
     width: 70%;
     margin: 10px auto; 
@@ -102,13 +119,26 @@ i.fas{
 
 div.logo{
     float: left;
-    margin-top: 35px;
+    margin-top: 25px;
+}
 
+ul.logo-media li img{
+    width: 40px;
+    /* ESTO NO SE SI ESTA BIEN, deje los dos margin por las dudas */
+    margin: 5px 0;
+    margin-top: 35px;
 }
 
 ul.logo-media li img{
     width: 50px;
     float: right;
+}
+/* HAY TRES .PHOTO-RECIPE ME QUIERO MORIR */
+.photo-recipe{
+    border-radius: 40px;
+    /* CONFLICTO CON EL WIDTH, dejo los dos, no se cual es */
+    width: 620px;
+    width: 520px;
     border-radius: 40px;
     margin-bottom: 10px;
 }
@@ -121,7 +151,11 @@ ul.logo-media li img{
 div.left-side{
     width: calc(100% - 80px);
     float: right;
+}
 
+.photo-recipe{
+    border-radius: 40px;
+    width: 520px;
 }
 
 .interaction-article{
@@ -133,6 +167,13 @@ div.left-side{
 .interaction-article p{
     float:left;
     font-size:10px;
+}
+/* HAY DOS INTERACTION-ARTICLE > A */
+.interaction-article > a{
+    float:right;
+    font-size:10px;
+    margin:0 10px;
+    text-decoration: none;
 }
 
 .recipe-details p{
@@ -207,8 +248,17 @@ i.fa-circle{
     color: #000;
     font-weight: bold;
 }
+
+.social-media li a:hover{
+    color: rgb(180, 75, 89);
+}
+
 .fab, .far, .fas{
     margin: 0 10px;
+}
+
+.footer-up{
+    display:none;
 }
 
 @media (max-width: 600px){

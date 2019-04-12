@@ -16,9 +16,9 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    
 }
-
 
 body{
     font-family: "IBM Plex Mono", monospace;
@@ -28,6 +28,7 @@ body{
     display: block;
     margin: 30px auto;
     text-align: center;
+    width: 70%;
 }
 
 .title-header{
@@ -84,15 +85,6 @@ body{
 
 .menu-mobile{
     display: none;
-/*  display:block;
-    width: 90%;
-    margin:10px auto;
-    height: 24px;
-    background-color: rgb(180, 75, 89);
-    border-radius: 20px;
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;*/
 }
 
 .carousel{
@@ -111,11 +103,16 @@ body{
     overflow: hidden;
 }
 
+.image-carousel a{
+    display:block;
+}
+
 .image-carousel img{
     width: 100%;
 }
 
 .hover{
+    display: none;
     position: absolute;
     bottom:-100%;
     left:0%;
@@ -136,6 +133,7 @@ body{
 }
 
 .image-carousel:hover .hover{
+    display:block;
     position: absolute;
     bottom: 0%;
     left:0%;
@@ -150,6 +148,7 @@ body{
     padding: 20px 0;
     width: 70%;
 }
+
 .list-image{
     position: relative;
     width: 33%;
@@ -197,16 +196,17 @@ body{
     width: 70%;
     overflow: hidden;
 }
+
 .video{
+    width: 60%;
+    margin: 25px 0;
     width: calc(100% - 300px);
-    margin: 25px 0; 
 }
-.video p{
-    font-size:10px;
-}
+
 .about-me{
     width: 300px;
 }
+
 .about-me img{
     display: block;
     border-radius: 50%;
@@ -214,6 +214,7 @@ body{
     height: 150px;
     margin: 25px auto;
 }
+
 .border{
     display:block;
     width: 100%;
@@ -223,14 +224,17 @@ body{
     color: #fff;
     height: 25px;
 }
+
 .about-me h3, .about-me p{
     text-align: center;
     margin: 25px 0;
 }
+
 .about-me h3{
     font-size: 20px;
     font-weight: bold;
 }
+
 .about-me p{
     font-size: 15px;
 }
@@ -248,6 +252,7 @@ body{
     flex-direction: row;
     border-top: 1px solid #ccc;
     padding: 20px 0;
+    margin:10px 0;
     width: calc(100% - 300px);
 }
 
@@ -256,21 +261,33 @@ body{
     margin-right: 30px;
     margin-top: 10px;
 }
+
 .image-article img{
     border-radius: 20px;
     width: 250px;
     height: 160px;
 }
+
+.info-article{
+    float: left;
+    width:70%;
+    margin: 10px 30px;
+    width: 250px;
+    height: 160px;
+}
+
 .info-article{
     float: left;
     width: calc(100% - 250px);
     margin: 10px 0;
 }
+
 .interaction-article{
     height: 10px;
     width: 400px;
     color: #999;
 }
+
 .interaction-article p{
     float:left;
     font-size:10px;
@@ -283,6 +300,7 @@ body{
     text-decoration: none;
     color: #999;
 }
+
 .interaction-article .material-icons{
     font-size:10px;
 }
@@ -293,12 +311,14 @@ body{
     margin: 10px 0;
     color: #999;
 }
+
 .text-article h2{
     font-weight: bold;
     font-size: 25px;
     margin: 15px 0;
     color: #000;
 }
+
 .button-article{
     display:block;
     width: 150px;
@@ -324,6 +344,7 @@ body{
     margin:50px auto;
     border-bottom: 1px solid #ccc;
 }
+
 .social-media{
     display:flex;
     flex-direction: row;
@@ -331,34 +352,26 @@ body{
     list-style: none;
     margin-bottom: 50px;
 }
+
 .social-media li a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
-}
-.fab, .far, .fas{
-    margin: 0 10px;
 }
 
 .social-media li a:hover{
     color: rgb(180, 75, 89);
 }
 
-.social-media li p{
-    display: inline;
+.fab, .far, .fas{
+    margin: 0 10px;
 }
 
+.footer-up{
+    display:none;
+}
 
-@media (max-width: 600px){
-    
-    .header{
-        width:100%;
-    }
-    
-    .title-header{
-    margin: 10px auto;
-    }
-
+@media only screen and (max-width: 600px){
     .menu-desktop{
         display:none;
     }
@@ -367,20 +380,92 @@ body{
         display:block;
         width: 50%;
         margin:10px auto;
-        height: 2px;
+        height: 20px;
+        line-height: 16px;
         background-color: rgb(180, 75, 89);
-        border-radius: 20px;
+        border-radius: 10px;
         text-decoration: none;
         color: #fff;
         font-size: 16px; 
-        height: 100vh;
-        display: block;
-        margin: 20 70px 10px 70px;
-        font-size: 16px;
-        height: calc(9vh - 15px)
     }
+
+    .fa-align-justify{
+        margin-top:2px;
+    }
+
+    .carousel-responsive-1{
+        width:100%;
+        margin: 0 auto;
+    }
+
+    .carousel-responsive{
+        display:none;
+    }
+
+    .recipes{
+        flex-direction: column;
+    }
+
+    .list-image{
+        width:100%;
+        margin: 10px auto;
+    }
+
+    .video{
+        display: none
+    }
+
+    .about-me{
+        margin: 0 auto;
+        min-width:300px;
+    }
+
+    .div-article{
+        width: 100%;
+        min-width:320px;
+    }
+
+    .image-article{
+        display:none;
+    }
+
+    .info-article{
+        width: 100%;
+    }
+
+    .text-article{
+        width: 100%;
+    }
+
+    .interaction-article{
+        width: 100%;   
+    }
+
+    .footer{
+    width: 70%;
+    margin: 0 auto;
+    }
+
     .social-media li p{
         display: none
     }
+
+    .footer-up{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin:10px auto;
+        width: 100%;
+    }
+
+    .footer-up a{
+        color: rgb(180, 75, 89);
+        font-size: 30px;
+    }
 }
 
+@media only screen and (max-width: 1000px){
+    .div-article{
+        width:100%;
+    }
+}
