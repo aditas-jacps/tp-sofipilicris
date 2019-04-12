@@ -19,7 +19,6 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-
 body{
     font-family: "IBM Plex Mono", monospace;
 }
@@ -109,6 +108,10 @@ body{
     width: 25%;
     position: relative;
     overflow: hidden;
+}
+
+.image-carousel a{
+    display:block;
 }
 
 .image-carousel img{
