@@ -51,19 +51,7 @@ body{
     flex-direction: row;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 .menu-desktop li{
     margin:0 auto;
 }
@@ -91,23 +79,11 @@ body{
 }
 
 .options li{
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    margin:5px 0;
-=======
+
+ 
     margin:10px 0;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
-    margin:10px 0;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    margin:10px 0;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    margin:10px 0;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
+
 }
 
 .platos:hover .options {
@@ -116,15 +92,6 @@ body{
 
 .menu-mobile{
     display: none;
-/*  display:block;
-    width: 90%;
-    margin:10px auto;
-    height: 24px;
-    background-color: rgb(180, 75, 89);
-    border-radius: 20px;
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;*/
 }
 
 .carousel{
@@ -148,52 +115,21 @@ body{
 }
 
 .hover{
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     display: none;
-    position: absolute;
-    bottom:0%;
-=======
+ 
     position: absolute;
     bottom:-100%;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
-    position: absolute;
-    bottom:-100%;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    position: absolute;
-    bottom:-100%;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    position: absolute;
-    bottom:-100%;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
     left:0%;
     width: 100%;
     background-color: rgba(180, 75, 89, 0.45);
     color: #000;
     padding: 10px 10px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    transition: bottom 0.3s ease-out;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
-    transition: bottom 0.3s ease-out;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    transition: bottom 0.3s ease-out;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    transition: bottom 0.3s ease-out;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-}
 
+    transition: bottom 0.3s ease-out;
+
+}
 .info-hover{
     font-size: 10px;
     margin: 10px 10px;
@@ -204,32 +140,17 @@ body{
 }
 
 .image-carousel:hover .hover{
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     display:block;
-=======
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
+
+    display:block;
+
     position: absolute;
     bottom: 0%;
     left:0%;
     transition: bottom 0.3s ease-out;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
 }
 
 .recipes{
@@ -252,19 +173,7 @@ body{
     border-radius: 20px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 .list-image a{
     display:block;
     margin:0 auto;
@@ -279,17 +188,7 @@ body{
     height: 25px;
     line-height: 25px;
     color: #000;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
     transition: all 0.2s;
 }
 
@@ -300,16 +199,7 @@ body{
 
 .list-image:hover .img-recipe{
     opacity: 0.5;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
 }
 
 .information{
@@ -322,50 +212,19 @@ body{
     overflow: hidden;
 }
 .video{
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     width: 60%;
     margin: 25px 0;
-=======
     width: calc(100% - 300px);
-    margin: 25px 0; 
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
-    width: calc(100% - 300px);
-    margin: 25px 0; 
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    width: calc(100% - 300px);
-    margin: 25px 0; 
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    width: calc(100% - 300px);
-    margin: 25px 0; 
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
-.video p{
-    font-size:10px;
-}
+
+  
+
 .about-me{
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     width: 40%;
-=======
     width: 300px;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
-    width: 300px;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    width: 300px;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    width: 300px;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
 }
 .about-me img{
     display: block;
@@ -406,60 +265,26 @@ body{
 .div-article{
     display:flex;
     flex-direction: row;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     overflow: hidden;
     border-top: 1px solid #ccc;
     padding: 20px 0;
-=======
-    border-top: 1px solid #ccc;
-    padding: 20px 0;
     width: calc(100% - 300px);
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
-    border-top: 1px solid #ccc;
-    padding: 20px 0;
-    width: calc(100% - 300px);
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    border-top: 1px solid #ccc;
-    padding: 20px 0;
-    width: calc(100% - 300px);
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    border-top: 1px solid #ccc;
-    padding: 20px 0;
-    width: calc(100% - 300px);
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
 }
 
 .image-article{
     float: left;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     width: 40%;
     height: 40%;
-=======
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
     margin-right: 30px;
     margin-top: 10px;
 }
 .image-article img{
     border-radius: 20px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     width: 100%;
     height: 100%;
 }
@@ -467,13 +292,7 @@ body{
     float: left;
     width:70%;
     margin: 10px 30px;
-=======
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
     width: 250px;
     height: 160px;
 }
@@ -481,36 +300,13 @@ body{
     float: left;
     width: calc(100% - 250px);
     margin: 10px 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
 }
 .interaction-article{
     height: 10px;
     width: 400px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
     color: #999;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
-    color: #999;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    color: #999;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    color: #999;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
 .interaction-article p{
     float:left;
@@ -522,22 +318,9 @@ body{
     font-size:10px;
     margin:0 10px;
     text-decoration: none;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
     color: #999;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
-    color: #999;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    color: #999;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    color: #999;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
 }
 .interaction-article .material-icons{
     font-size:10px;
@@ -547,43 +330,16 @@ body{
     float: left;
     width:400px;
     margin: 10px 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
     color: #999;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
-    color: #999;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    color: #999;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    color: #999;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
 }
 .text-article h2{
     font-weight: bold;
     font-size: 25px;
     margin: 15px 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
     color: #000;
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
-    color: #000;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    color: #000;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    color: #000;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 }
 .button-article{
     display:block;
@@ -596,17 +352,7 @@ body{
     line-height: 40px;
     text-decoration: none;
     margin-top: 25px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
     transition: all 0.2s;
 }
 
@@ -614,16 +360,7 @@ body{
     background-color: #fff;
     color: #000;
     border: 1.5px solid rgb(180, 75, 89);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
 }
 
 .footer{
@@ -638,65 +375,48 @@ body{
     list-style: none;
     margin-bottom: 50px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 .social-media li a{
     text-decoration: none;
     color: #000;
     font-weight: bold;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .fab, .far, .fas{
     margin: 0 10px;
-=======
-.fab, .far, .fas{
-    margin: 0 10px;
-=======
-.fab, .far, .fas{
-    margin: 0 10px;
-=======
-.fab, .far, .fas{
-    margin: 0 10px;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
+
 }
 
 .line{
     display: none;
-<<<<<<< HEAD
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
 }
 
 .line{
     display: none;
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
+}
+
+.line{
+    display: none;
+}
+
+.social-media li a:hover{
+    color: rgb(180, 75, 89);
 }
 
 
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
 @media (max-width: 600px){
-    
     .header{
         width:100%;
+    }
+
+    .video{
+        display: none
+    }
+    .recipes{
+        flex-direction: column;
     }
     
     .title-header{
@@ -724,21 +444,18 @@ body{
         font-size: 16px;
         height: calc(9vh - 15px);
         top: 0;
+    }
         
-        }
-        
-
-
-
-.image-carousel .hover{
-    display: none
-}
+    .image-carousel .hover{
+        display: none
+    }
 
     .social-media li p{
-display: none
+        display: none
     }
 
     .footer{
+
     width: 100%;
     margin: 0;
     display: inline-block
@@ -748,11 +465,63 @@ display: none
     width: 60%;
     margin: 0;
     display: inline-block
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+}
+
+    .div-article{
+        display: none
+    }
+
+    .hr{
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        width: 100px;
+        height: 1px;
+        }
+
+    .div-article{
+        display: none
+    }
+
+    .hr{
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        width: 100px;
+        height: 1px;
+    }
     
+
+    
+    
+    
+    h1::after,h1::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: grey;
+    top: 1;
+    margin: 70px;
+    }
+
+    h1::before{
+    left: 480px;
+    }
+    
+
+    .list-image a{
+        width: 60%;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .hr{
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        width: 100px;
+        height: 1px;
     }
 
     .div-article{
@@ -765,90 +534,32 @@ display: none
         text-align: center;
         width: 100px;
         height: 1px;
-        
-        
-<<<<<<< HEAD
-    
     }
     
     h1::after,h1::before{
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 1px;
-    background-color: grey;
-    top: 1;
-    margin: 70px;
-    }
-    
-=======
-    
-    }
-
-    .div-article{
-        display: none
-    }
-
-    .hr{
-        display: inline-block;
-        position: relative;
-        text-align: center;
+        content: "";
+        position: absolute;
         width: 100px;
         height: 1px;
-        
-        
-    
+        background-color: grey;
+        top: 1;
+        margin: 70px;
     }
-    
-=======
-    
-    }
-    
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-    h1::after,h1::before{
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 1px;
-    background-color: grey;
-    top: 1;
-    margin: 70px;
-    }
-<<<<<<< HEAD
-    
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-    h1::before{
-    left: 480px;
-    }
-    
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
-.social-media li a:hover{
-    color: rgb(180, 75, 89);
-}
-.fab, .far, .fas{
-    margin: 0 10px;
-}
->>>>>>> 4c46994baae21beab3f67fd19f1676f2400116ae
-=======
-    h1::after{
-    right: 480px;
-    }
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    h1::after{
-    right: 480px;
-    }
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
-=======
-    
+
     h1::before{
     left: 480px;
     }
-    
+
     h1::after{
     right: 480px;
     }
->>>>>>> 02e49823be9a8d08aefe63ea7e15656624f41338
+
+    h1::after{
+    right: 480px;
+    }
+
+    
+    h1::before{
+    left: 480px;
+}
