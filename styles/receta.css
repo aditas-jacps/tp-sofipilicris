@@ -124,38 +124,19 @@ div.logo{
 
 ul.logo-media li img{
     width: 40px;
-    /* ESTO NO SE SI ESTA BIEN, deje los dos margin por las dudas */
-    margin: 5px 0;
-    margin-top: 35px;
-}
-
-ul.logo-media li img{
-    width: 50px;
+    margin-top: 15px;
     float: right;
 }
-/* HAY TRES .PHOTO-RECIPE ME QUIERO MORIR */
-.photo-recipe{
-    border-radius: 40px;
-    /* CONFLICTO CON EL WIDTH, dejo los dos, no se cual es */
-    width: 620px;
-    width: 520px;
-    border-radius: 40px;
-    margin-bottom: 10px;
-}
 
 .photo-recipe{
-    border-radius: 20px;
-    width: 550px;
+    border-radius: 40px;
+    width: 520px;
+    margin-bottom: 10px;
 }
 
 div.left-side{
     width: calc(100% - 80px);
     float: right;
-}
-
-.photo-recipe{
-    border-radius: 40px;
-    width: 520px;
 }
 
 .interaction-article{
@@ -167,13 +148,6 @@ div.left-side{
 .interaction-article p{
     float:left;
     font-size:10px;
-}
-/* HAY DOS INTERACTION-ARTICLE > A */
-.interaction-article > a{
-    float:right;
-    font-size:10px;
-    margin:0 10px;
-    text-decoration: none;
 }
 
 .recipe-details p{
@@ -243,7 +217,10 @@ i.fa-circle{
     list-style: none;
     margin-bottom: 50px;
 }
+
 .social-media li a{
+    display: flex;
+    flex-direction: row;
     text-decoration: none;
     color: #000;
     font-weight: bold;
@@ -322,11 +299,13 @@ i.fa-circle{
     }
 
     ul.logo-media{
-        justify-content: center   
+        justify-content: center;
     }
 
     ul.logo-media li img{
         float: none;
+        margin-right: 10px;
+        margin-bottom: 10px;    
     }
 
     div.left-side{
