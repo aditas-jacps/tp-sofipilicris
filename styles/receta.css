@@ -273,6 +273,7 @@ i.fa-circle{
         list-style: none;
         width: 100%;
         margin: 20px auto;
+        justify-content: center;
     }
 
     .under-banner li a{
