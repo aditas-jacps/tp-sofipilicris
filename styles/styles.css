@@ -111,6 +111,10 @@ body{
     width: 100%;
 }
 
+
+/* el selector debería ser más especifico ya que corresponde al estado hover de un elmeento especifico */
+/* no es clara la legibilidad el contenido del elmento  */
+/* el display none anula cualquier posibilidad de transición */
 .hover{
     display: none;
     position: absolute;
@@ -132,6 +136,7 @@ body{
     margin: 10px 10px;
 }
 
+/* la propiedad transition en este caso es redundante y sólo debería estar definida en el estilo base*/
 .image-carousel:hover .hover{
     display:block;
     position: absolute;

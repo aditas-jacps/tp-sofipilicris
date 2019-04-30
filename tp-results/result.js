@@ -1,11 +1,11 @@
 let observations = [
-  {label:'Identación', score:4},
-  {label:'Maquetado', score:6},
-  {label:'Css', score:7},
+  {label:'Identación', score:7},
+  {label:'Maquetado', score:5},
+  {label:'Css', score:6},
   {label:'Responsive', score:6},
-  {label:'Interacciones', score:8},
+  {label:'Interacciones', score:5},
   {label:'Consigna', score:8},
-  {label:'Apresiativa', score:9}
+  {label:'Apreciativa', score:7}
 ]
 let finalScore = 0;
 observations.forEach( e => {finalScore += e.score})
